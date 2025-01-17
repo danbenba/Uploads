@@ -1,0 +1,33 @@
+{
+    "name": "Translucence",
+    "description": "A translucent/frosted glass Discord theme",
+    "authors": [
+      {
+        "name": "CapnKitten",
+        "website": "http://github.com/CapnKitten"
+      }
+    ],
+    "semanticColors": {
+      "BACKGROUND_PRIMARY": ["rgba(0, 0, 0, 0.2)", "rgba(0, 0, 0, 0.2)"], // Correspond à --main-content-color
+      "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 0.4)", "rgba(0, 0, 0, 0.4)"], // Correspond à --sidebar-color
+      "BACKGROUND_MODIFIER_HOVER": ["rgba(255, 255, 255, 0.075)", "rgba(255, 255, 255, 0.075)"], // Correspond à --background-modifier-hover
+      "BACKGROUND_MODIFIER_SELECTED": ["rgba(255, 255, 255, 0.125)", "rgba(255, 255, 255, 0.125)"], // Correspond à --background-modifier-selected
+      "TEXT_NORMAL": ["#ffffff", "#ffffff"], // Couleur du texte standard
+      "TEXT_MUTED": ["#aaaaaa", "#aaaaaa"] // Couleur du texte atténué
+    },
+    "rawColors": {
+      "BRAND_500": "hsl(156, 77.5%, 47.1%)", // Correspond à --accent-hue, --accent-saturation, --accent-lightness
+      "RED_500": "hsl(226, 77.4%, 61.8%)" // Correspond à --reply-hue, --reply-saturation, --reply-lightness
+    },
+    "plus": {
+      "version": "0",
+      "customOverlays": true,
+      "mentionLineColor": "hsl(226, 77.4%, 61.8%)", // Correspond à --reply-hue, --reply-saturation, --reply-lightness
+      "icons": {
+        "ic_close_24px": "#ffffff", // Couleur de l'icône de fermeture
+        "ic_radio_circle_checked": "hsl(156, 77.5%, 47.1%)" // Couleur de l'icône radio sélectionnée
+      }
+    },
+    "spec": 2
+  }
+  
